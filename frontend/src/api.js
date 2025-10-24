@@ -5,7 +5,7 @@ const BASE = import.meta.env.VITE_API_BASE || 'http://localhost:4000';
 
 const authHeader = () => {
   // Basic Auth credentials (frontend uses hardcoded per assignment)
-  const credentials = btoa('admin:password123');
+  const credentials = btoa('admin:password12345');
   return { Authorization: 'Basic ' + credentials };
 };
 
